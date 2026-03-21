@@ -1,0 +1,12 @@
+---
+description: LLM calls must use Instructor + LiteLLM with structured Pydantic outputs
+globs: **/*.py
+alwaysApply: false
+---
+
+# LLM standards (Python)
+
+- Use **LiteLLM** as the provider layer and **Instructor** for structured outputs.
+- All LLM calls must return **validated Pydantic v2 models** (no ad-hoc JSON parsing).
+- Include timeouts and handle provider errors gracefully (meaningful errors + structured logs).
+- Avoid logging secrets; redact API keys/tokens and sensitive user data in logs.

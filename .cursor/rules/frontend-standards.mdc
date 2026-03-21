@@ -1,0 +1,15 @@
+---
+description: React 19 + Vite + TS strict, Tailwind + shadcn/ui
+globs: **/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Frontend standards
+
+- Use **React 19**, **Vite**, and **TypeScript (strict)**.
+- Use **Tailwind** + **shadcn/ui** for UI components and styling.
+
+## UX requirements
+- Dark-mode first and fully responsive layouts.
+- Provide loading/empty/error states for async data.
+- Use toast notifications for user-visible success/failure where appropriate.

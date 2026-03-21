@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+litellm>=1.44.0
+instructor>=1.6.0
+ruff>=0.6.0
+bandit>=1.7.9
+mypy>=1.10.0

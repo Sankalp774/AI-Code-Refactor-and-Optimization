@@ -1,0 +1,10 @@
+---
+description: Quality gates before committing (ruff + mypy)
+alwaysApply: true
+---
+
+# Quality gates
+
+- Never commit without running:
+  - `ruff --fix`
+  - `mypy`

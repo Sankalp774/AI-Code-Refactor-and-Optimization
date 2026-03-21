@@ -1,0 +1,19 @@
+---
+description: Core engineering standards (quality, UI, safety)
+alwaysApply: true
+---
+
+# Core standards
+
+## Code quality
+- Prefer clean, production-ready code with proper error handling and structured logging.
+- Avoid magic values; use constants/enums/config as appropriate.
+- Make failure modes explicit (timeouts, retries where appropriate, meaningful error messages).
+
+## UI quality (frontend work)
+- Dark-mode first, fully responsive UI.
+- Always include loading/empty/error states for async flows.
+- Use toast notifications for user-visible success/failure events when appropriate.
+
+## LLM usage (project-wide expectation)
+- Use Instructor + LiteLLM for LLM calls with structured **Pydantic v2** outputs (avoid free-form parsing).

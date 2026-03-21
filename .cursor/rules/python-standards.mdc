@@ -1,0 +1,15 @@
+---
+description: Python 3.12+, async-first, Pydantic v2 validation
+globs: **/*.py
+alwaysApply: false
+---
+
+# Python standards
+
+- Use **Python 3.12+** features and idioms.
+- Use **type hints everywhere** (including return types).
+- Prefer **async** where it materially improves throughput/latency (I/O, network, DB).
+
+## Pydantic (v2) validation
+- Use **Pydantic v2** for input/output validation at API boundaries.
+- Validate request payloads and response schemas; return meaningful error responses (avoid raw tracebacks).

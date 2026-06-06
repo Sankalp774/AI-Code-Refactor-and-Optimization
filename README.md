@@ -1,4 +1,4 @@
-# RefactorAI
+# RefactorAI [GENARTION 2 UPGRADE]
 
 AI-Powered Code Refactoring & Optimization Assistant (Python-first).
 

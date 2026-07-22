@@ -1,5 +1,8 @@
 # RefactorAI [GENARTION 2 UPGRADE]
 
+> **Created:** (2026-03-21)  
+> **Latest update:** (2026-07-22) — RefactorAI Gen-2 full-stack product metadata (FastAPI + React + Docker + Ollama/Groq)
+
 AI-Powered Code Refactoring & Optimization Assistant (Python-first).
 
 ## Features

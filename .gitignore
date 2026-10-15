@@ -1,0 +1,9 @@
+
+# secrets / local envs (added after public key leak cleanup)
+.env
+**/.env
+**/.env.save
+backend/.env.save
+backend/venv/
+refactorai-assistant/backend/venv/
+__pycache__/

@@ -7,3 +7,9 @@ backend/.env.save
 backend/venv/
 refactorai-assistant/backend/venv/
 __pycache__/
+venv/
+.venv/
+.env.*
+!.env.example
+**/venv/
+**/.venv/
